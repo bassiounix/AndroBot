@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap);
+
+* {
+  background: -moz-linear-gradient(45deg, #0084c5 0, #0489c3 36%, #30cabf 66%, #2fbcb2 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0, #0084c5), color-stop(36%, #0489c3), 
+  color-stop(66%, #30cabf), color-stop(100%, #2fbcb2));
+  background: -webkit-linear-gradient(45deg, #0084c5 0, #0489c3 36%, #30cabf 66%, #2fbcb2 100%);
+  background: -o-linear-gradient(45deg, #0084c5 0, #0489c3 36%, #30cabf 66%, #2fbcb2 100%);
+  background: -ms-linear-gradient(45deg, #0084c5 0, #0489c3 36%, #30cabf 66%, #2fbcb2 100%);
+  background: linear-gradient(45deg, #0084c5 0, #0489c3 36%, #30cabf 66%, #2fbcb2 100%) center center fixed;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0084c5', endColorstr='#2fbcb2', GradientType=1);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: 'Metal Mania', cursive;
+  background-color: #1C2834;
+}
+
+p {
+  font-size: 50px;
+  border: 1px black solid;
+  width: 30rem;
+  border-radius: 20px 20px 20px;
+  color: black;
+}
+
+#card {
+  padding-top: 1px;
+  height: 540px;
+  width: 35rem;
+  border-radius: 20px 20px 20px;
+  box-shadow: black 3px 9px 20px 0px;
+  margin-top: 50px;
+}
+
+#shape {
+  border: 1px black solid;
+  width: 30rem;
+  border-radius: 20px 20px 20px;
+  height: 340px;
+}
+
+#head {
+  /*background-color: #1C2834;*/
+  width: 170px;
+  height: 90px;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  display: flex;
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+
+.eye {
+  width: 11px;
+  height: 11px;
+  margin-top: 55px;
+  border-radius: 160px 160px 160px;
+  background-color: white;
+}
+
+#body {
+  width: 350px;
+  height: 170px;
+  border: 2px black;
+  display: flex;
+}
+
+#bdy {
+  width: 170px;
+  /*background-color: #1C2834;*/
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+}
+
+#arml {
+  width: 33px;
+  border-radius: 160px 160px 160px;
+  height: 120px;
+  /*background-color: #1C2834;*/
+  margin-right: 7px;
+}
+
+#armr {
+  width: 33px;
+  border-radius: 160px 160px 160px;
+  height: 120px;
+  /*background-color: #1C2834;*/
+  margin-left: 7px;
+}
+
+#legl {
+  width: 36px;
+  height: 73px;
+  margin-top: 160px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /*background-color: #1C2834;*/
+  margin-right: 15px;
+}
+
+#legr {
+  width: 36px;
+  height: 73px;
+  margin-top: 160px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /*background-color: #1C2834;*/
+  margin-left: 15px;
+}
